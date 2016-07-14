@@ -1,0 +1,202 @@
+package com.astudios.aristosstudios.convertidorunidades.formulasUnidades;
+
+/**
+ * Created by Aristos Studios on 21/1/2016.
+ */
+public class peso_masa {
+    public double quilates_miligramos(double quilates){double miligramos=quilates*200; return miligramos;}
+    public double quilates_centigramos(double quilates){double centigramos=quilates*20; return centigramos;}
+    public double quilates_decigramos(double quilates){double decigramos=quilates*2; return decigramos;}
+    public double quilates_gramos(double quilates){double gramos=quilates*0.2; return gramos;}
+    public double quilates_decagramos(double quilates){double decagramos=quilates*0.02; return decagramos;}
+    public double quilates_hectogramos(double quilates){double hectogramos=quilates*0.002; return hectogramos;}
+    public double quilates_kilogramos(double quilates){double kilogramos=quilates*0.0002; return kilogramos;}
+    public double quilates_toneladasMetricas(double quilates){double toneladasMetricas=quilates*0.0000002; return toneladasMetricas;}
+    public double quilates_onzas(double quilates){double onzas=quilates*0.007055; return onzas;}
+    public double quilates_libras(double quilates){double libras=quilates*0.000441; return libras;}
+    public double quilates_piedra(double quilates){double piedra=quilates*0.000031; return piedra;}
+    public double quilates_toneladasCortas(double quilates){double toneladasCortas=quilates*0.00000022046226; return toneladasCortas;}
+    public double quilates_toneladasLargas(double quilates){double toneladasLargas=quilates*0.00000019684131; return toneladasLargas;}
+
+    public double miligramos_quilates(double miligramos){double quilates=miligramos*0.005; return quilates;}
+    public double miligramos_centigramos(double miligramos){double centigramos=miligramos*0.1; return centigramos;}
+    public double miligramos_decigramos(double miligramos){double decigramos=miligramos*0.01; return decigramos;}
+    public double miligramos_gramos(double miligramos){double gramos=miligramos*0.001; return gramos;}
+    public double miligramos_decagramos(double miligramos){double decagramos=miligramos*0.0001; return decagramos;}
+    public double miligramos_hectogramos(double miligramos){double hectogramos=miligramos*0.00001; return hectogramos;}
+    public double miligramos_kilogramos(double miligramos){double kilogramos=miligramos*0.000001; return kilogramos;}
+    public double miligramos_toneladasMetricas(double miligramos){double toneladasMetricas=miligramos*0.000000001; return toneladasMetricas;}
+    public double miligramos_onzas(double miligramos){double onzas=miligramos*0.000035; return onzas;}
+    public double miligramos_libras(double miligramos){double libras=miligramos*0.000002; return libras;}
+    public double miligramos_piedra(double miligramos){double piedra=miligramos*0.00000015747304; return piedra;}
+    public double miligramos_toneladasCortas(double miligramos){double toneladasCortas=miligramos*0.00000000110231; return toneladasCortas;}
+    public double miligramos_toneladasLargas(double miligramos){double toneladasLargas=miligramos*0.00000000098421; return toneladasLargas;}
+
+    public double centigramos_quilates(double centigramos){double quilates=centigramos*0.05; return quilates;}
+    public double centigramos_miligramos(double centigramos){double miligramos=centigramos*10; return miligramos;}
+    public double centigramos_decigramos(double centigramos){double decigramos=centigramos*0.1; return decigramos;}
+    public double centigramos_gramos(double centigramos){double gramos=centigramos*0.01; return gramos;}
+    public double centigramos_decagramos(double centigramos){double decagramos=centigramos*0.001; return decagramos;}
+    public double centigramos_hectogramos(double centigramos){double hectogramos=centigramos*0.0001; return hectogramos;}
+    public double centigramos_kilogramos(double centigramos){double kilogramos=centigramos*0.00001; return kilogramos;}
+    public double centigramos_toneladasMetricas(double centigramos){double toneladasMetricas=centigramos*0.00000001; return toneladasMetricas;}
+    public double centigramos_onzas(double centigramos){double onzas=centigramos*0.000353; return onzas;}
+    public double centigramos_libras(double centigramos){double libras=centigramos*0.000022; return libras;}
+    public double centigramos_piedra(double centigramos){double piedra=centigramos*0.000002; return piedra;}
+    public double centigramos_toneladasCortas(double centigramos){double toneladasCortas=centigramos*0.00000001102311; return toneladasCortas;}
+    public double centigramos_toneladasLargas(double centigramos){double toneladasLargas=centigramos*0.00000000984207; return toneladasLargas;}
+
+    public double decigramos_quilates(double decigramos){double quilates=decigramos*0.5; return quilates;}
+    public double decigramos_miligramos(double decigramos){double miligramos=decigramos*100; return miligramos;}
+    public double decigramos_centigramos(double decigramos){double centigramos=decigramos*10; return centigramos;}
+    public double decigramos_gramos(double decigramos){double gramos=decigramos*0.1; return gramos;}
+    public double decigramos_decagramos(double decigramos){double decagramos=decigramos*0.01; return decagramos;}
+    public double decigramos_hectogramos(double decigramos){double hectogramos=decigramos*0.001; return hectogramos;}
+    public double decigramos_kilogramos(double decigramos){double kilogramos=decigramos*0.0001; return kilogramos;}
+    public double decigramos_toneladasMetricas(double decigramos){double toneladasMetricas=decigramos*0.0000001; return toneladasMetricas;}
+    public double decigramos_onzas(double decigramos){double onzas=decigramos*0.003527; return onzas;}
+    public double decigramos_libras(double decigramos){double libras=decigramos*0.00022; return libras;}
+    public double decigramos_piedra(double decigramos){double piedra=decigramos*0.000016; return piedra;}
+    public double decigramos_toneladasCortas(double decigramos){double toneladasCortas=decigramos*0.00000011023113; return toneladasCortas;}
+    public double decigramos_toneladasLargas(double decigramos){double toneladasLargas=decigramos*0.00000009842065; return toneladasLargas;}
+
+    public double gramos_quilates(double gramos){double quilates=gramos*5; return quilates;}
+    public double gramos_miligramos(double gramos){double miligramos=gramos*1000; return miligramos;}
+    public double gramos_centigramos(double gramos){double centigramos=gramos*100; return centigramos;}
+    public double gramos_decigramos(double gramos){double decigramos=gramos*10; return decigramos;}
+    public double gramos_decagramos(double gramos){double decagramos=gramos*0.1; return decagramos;}
+    public double gramos_hectogramos(double gramos){double hectogramos=gramos*0.01; return hectogramos;}
+    public double gramos_kilogramos(double gramos){double kilogramos=gramos*0.001; return kilogramos;}
+    public double gramos_toneladasMetricas(double gramos){double toneladasMetricas=gramos*0.000001; return toneladasMetricas;}
+    public double gramos_onzas(double gramos){double onzas=gramos*0.35274; return onzas;}
+    public double gramos_libras(double gramos){double libras=gramos*0.002205; return libras;}
+    public double gramos_piedra(double gramos){double piedra=gramos*0.000157; return piedra;}
+    public double gramos_toneladasCortas(double gramos){double toneladasCortas=gramos*0.000001; return toneladasCortas;}
+    public double gramos_toneladasLargas(double gramos){double toneladasLargas=gramos*0.00000098420653; return toneladasLargas;}
+
+    public double decagramos_quilates(double decagramos){double quilates=decagramos*50; return quilates;}
+    public double decagramos_miligramos(double decagramos){double miligramos=decagramos*10000; return miligramos;}
+    public double decagramos_centigramos(double decagramos){double centigramos=decagramos*1000; return centigramos;}
+    public double decagramos_decigramos(double decagramos){double decigramos=decagramos*100; return decigramos;}
+    public double decagramos_gramos(double decagramos){double gramos=decagramos*10; return gramos;}
+    public double decagramos_hectogramos(double decagramos){double hectogramos=decagramos*0.1; return hectogramos;}
+    public double decagramos_kilogramos(double decagramos){double kilogramos=decagramos*0.01; return kilogramos;}
+    public double decagramos_toneladasMetricas(double decagramos){double toneladasMetricas=decagramos*0.00001; return toneladasMetricas;}
+    public double decagramos_onzas(double decagramos){double onzas=decagramos*0.35274; return onzas;}
+    public double decagramos_libras(double decagramos){double libras=decagramos*0.022046; return libras;}
+    public double decagramos_piedra(double decagramos){double piedra=decagramos*0.001575; return piedra;}
+    public double decagramos_toneladasCortas(double decagramos){double toneladasCortas=decagramos*0.000011; return toneladasCortas;}
+    public double decagramos_toneladasLargas(double decagramos){double toneladasLargas=decagramos*0.00001; return toneladasLargas;}
+
+    public double hectogramos_quilates(double hectogramos){double quilates=hectogramos*500; return quilates;}
+    public double hectogramos_miligramos(double hectogramos){double miligramos=hectogramos*100000; return miligramos;}
+    public double hectogramos_centigramos(double hectogramos){double centigramos=hectogramos*10000; return centigramos;}
+    public double hectogramos_decigramos(double hectogramos){double decigramos=hectogramos*1000; return decigramos;}
+    public double hectogramos_gramos(double hectogramos){double gramos=hectogramos*100; return gramos;}
+    public double hectogramos_decagramos(double hectogramos){double decagramos=hectogramos*10; return decagramos;}
+    public double hectogramos_kilogramos(double hectogramos){double kilogramos=hectogramos*0.1; return kilogramos;}
+    public double hectogramos_toneladasMetricas(double hectogramos){double toneladasMetricas=hectogramos*0.0001; return toneladasMetricas;}
+    public double hectogramos_onzas(double hectogramos){double onzas=hectogramos*3.527396; return onzas;}
+    public double hectogramos_libras(double hectogramos){double libras=hectogramos*0.220462; return libras;}
+    public double hectogramos_piedra(double hectogramos){double piedra=hectogramos*0.015747; return piedra;}
+    public double hectogramos_toneladasCortas(double hectogramos){double toneladasCortas=hectogramos*0.00011; return toneladasCortas;}
+    public double hectogramos_toneladasLargas(double hectogramos){double toneladasLargas=hectogramos*0.000098; return toneladasLargas;}
+
+    public double kilogramos_quilates(double kilogramos){double quilates=kilogramos*5000; return quilates;}
+    public double kilogramos_miligramos(double kilogramos){double miligramos=kilogramos*1000000; return miligramos;}
+    public double kilogramos_centigramos(double kilogramos){double centigramos=kilogramos*100000; return centigramos;}
+    public double kilogramos_decigramos(double kilogramos){double decigramos=kilogramos*10000; return decigramos;}
+    public double kilogramos_gramos(double kilogramos){double gramos=kilogramos*1000; return gramos;}
+    public double kilogramos_decagramos(double kilogramos){double decagramos=kilogramos*100; return decagramos;}
+    public double kilogramos_hectogramos(double kilogramos){double hectogramos=kilogramos*10; return hectogramos;}
+    public double kilogramos_toneladasMetricas(double kilogramos){double toneladasMetricas=kilogramos*0.001; return toneladasMetricas;}
+    public double kilogramos_onzas(double kilogramos){double onzas=kilogramos*35.27396; return onzas;}
+    public double kilogramos_libras(double kilogramos){double libras=kilogramos*2.204623; return libras;}
+    public double kilogramos_piedra(double kilogramos){double piedra=kilogramos*0.157473; return piedra;}
+    public double kilogramos_toneladasCortas(double kilogramos){double toneladasCortas=kilogramos*0.001102; return toneladasCortas;}
+    public double kilogramos_toneladasLargas(double kilogramos){double toneladasLargas=kilogramos*0.000984; return toneladasLargas;}
+
+    public double toneladasMetricas_quilates(double toneladasMetricas){double quilates=toneladasMetricas*5000000; return quilates;}
+    public double toneladasMetricas_miligramos(double toneladasMetricas){double miligramos=toneladasMetricas*1000000000; return miligramos;}
+    public double toneladasMetricas_centigramos(double toneladasMetricas){double centigramos=toneladasMetricas*100000000; return centigramos;}
+    public double toneladasMetricas_decigramos(double toneladasMetricas){double decigramos=toneladasMetricas*10000000; return decigramos;}
+    public double toneladasMetricas_gramos(double toneladasMetricas){double gramos=toneladasMetricas*1000000; return gramos;}
+    public double toneladasMetricas_decagramos(double toneladasMetricas){double decagramos=toneladasMetricas*100000; return decagramos;}
+    public double toneladasMetricas_hectogramos(double toneladasMetricas){double hectogramos=toneladasMetricas*10000; return hectogramos;}
+    public double toneladasMetricas_kilogramos(double toneladasMetricas){double kilogramos=toneladasMetricas*1000; return kilogramos;}
+    public double toneladasMetricas_onzas(double toneladasMetricas){double onzas=toneladasMetricas*35273.96; return onzas;}
+    public double toneladasMetricas_libras(double toneladasMetricas){double libras=toneladasMetricas*2204.623; return libras;}
+    public double toneladasMetricas_piedra(double toneladasMetricas){double piedra=toneladasMetricas*157.473; return piedra;}
+    public double toneladasMetricas_toneladasCortas(double toneladasMetricas){double toneladasCortas=toneladasMetricas*1.102311; return toneladasCortas;}
+    public double toneladasMetricas_toneladasLargas(double toneladasMetricas){double toneladasLargas=toneladasMetricas*0.984207; return toneladasLargas;}
+
+    public double onzas_quilates(double onzas){double quilates=onzas*141.7476; return quilates;}
+    public double onzas_miligramos(double onzas){double miligramos=onzas*28349.52; return miligramos;}
+    public double onzas_centigramos(double onzas){double centigramos=onzas*2834.952; return centigramos;}
+    public double onzas_decigramos(double onzas){double decigramos=onzas*283.4952; return decigramos;}
+    public double onzas_gramos(double onzas){double gramos=onzas*28.34952; return gramos;}
+    public double onzas_decagramos(double onzas){double decagramos=onzas*2.834952; return decagramos;}
+    public double onzas_hectogramos(double onzas){double hectogramos=onzas*0.283495; return hectogramos;}
+    public double onzas_kilogramos(double onzas){double kilogramos=onzas*0.02835; return kilogramos;}
+    public double onzas_toneladasMetricas(double onzas){double toneladasMetricas=onzas*0.000028; return toneladasMetricas;}
+    public double onzas_libras(double onzas){double libras=onzas*0.0625; return libras;}
+    public double onzas_piedra(double onzas){double piedra=onzas*0.004464; return piedra;}
+    public double onzas_toneladasCortas(double onzas){double toneladasCortas=onzas*0.000031; return toneladasCortas;}
+    public double onzas_toneladasLargas(double onzas){double toneladasLargas=onzas*0.000028; return toneladasLargas;}
+
+    public double libras_quilates(double libras){double quilates=libras*2267.962; return quilates;}
+    public double libras_miligramos(double libras){double miligramos=libras*453592.4; return miligramos;}
+    public double libras_centigramos(double libras){double centigramos=libras*45359.24; return centigramos;}
+    public double libras_decigramos(double libras){double decigramos=libras*4535.924; return decigramos;}
+    public double libras_gramos(double libras){double gramos=libras*453.5924; return gramos;}
+    public double libras_decagramos(double libras){double decagramos=libras*45.35924; return decagramos;}
+    public double libras_hectogramos(double libras){double hectogramos=libras*4.535924; return hectogramos;}
+    public double libras_kilogramos(double libras){double kilogramos=libras*0.453592; return kilogramos;}
+    public double libras_toneladasMetricas(double libras){double toneladasMetricas=libras*0.000454; return toneladasMetricas;}
+    public double libras_onzas(double libras){double onzas=libras*16; return onzas;}
+    public double libras_piedra(double libras){double piedra=libras*0.071429; return piedra;}
+    public double libras_toneladasCortas(double libras){double toneladasCortas=libras*0.0005; return toneladasCortas;}
+    public double libras_toneladasLargas(double libras){double toneladasLargas=libras*0.000446; return toneladasLargas;}
+
+    public double piedra_quilates(double piedra){double quilates=piedra*31751.47; return quilates;}
+    public double piedra_miligramos(double piedra){double miligramos=piedra*6350.293; return miligramos;}
+    public double piedra_centigramos(double piedra){double centigramos=piedra*635029.3; return centigramos;}
+    public double piedra_decigramos(double piedra){double decigramos=piedra*63502.93; return decigramos;}
+    public double piedra_gramos(double piedra){double gramos=piedra*6350.293; return gramos;}
+    public double piedra_decagramos(double piedra){double decagramos=piedra*635.0293; return decagramos;}
+    public double piedra_hectogramos(double piedra){double hectogramos=piedra*63.50293; return hectogramos;}
+    public double piedra_kilogramos(double piedra){double kilogramos=piedra*6.350293; return kilogramos;}
+    public double piedra_toneladasMetricas(double piedra){double toneladasMetricas=piedra*0.00635; return toneladasMetricas;}
+    public double piedra_onzas(double piedra){double onzas=piedra*224; return onzas;}
+    public double piedra_libras(double piedra){double libras=piedra*14; return libras;}
+    public double piedra_toneladasCortas(double piedra){double toneladasCortas=piedra*0.007; return toneladasCortas;}
+    public double piedra_toneladasLargas(double piedra){double toneladasLargas=piedra*0.00625; return toneladasLargas;}
+
+    public double toneladasCortas_quilates(double toneladasCortas){double quilates=toneladasCortas*4535924; return quilates;}
+    public double toneladasCortas_miligramos(double toneladasCortas){double miligramos=toneladasCortas*907184740; return miligramos;}
+    public double toneladasCortas_centigramos(double toneladasCortas){double centigramos=toneladasCortas*90718474; return centigramos;}
+    public double toneladasCortas_decigramos(double toneladasCortas){double decigramos=toneladasCortas*9071847; return decigramos;}
+    public double toneladasCortas_gramos(double toneladasCortas){double gramos=toneladasCortas*907184.7; return gramos;}
+    public double toneladasCortas_decagramos(double toneladasCortas){double decagramos=toneladasCortas*90718.47; return decagramos;}
+    public double toneladasCortas_hectogramos(double toneladasCortas){double hectogramos=toneladasCortas*9071.847; return hectogramos;}
+    public double toneladasCortas_kilogramos(double toneladasCortas){double kilogramos=toneladasCortas*907.1847; return kilogramos;}
+    public double toneladasCortas_toneladasMetricas(double toneladasCortas){double toneladasMetricas=toneladasCortas*0.907185; return toneladasMetricas;}
+    public double toneladasCortas_onzas(double toneladasCortas){double onzas=toneladasCortas*32000; return onzas;}
+    public double toneladasCortas_libras(double toneladasCortas){double libras=toneladasCortas*2000; return libras;}
+    public double toneladasCortas_piedra(double toneladasCortas){double piedra=toneladasCortas*142.8571; return piedra;}
+    public double toneladasCortas_toneladasLargas(double toneladasCortas){double toneladasLargas=toneladasCortas*0.892857; return toneladasLargas;}
+
+    public double toneladasLargas_quilates(double toneladasLargas){double quilates=toneladasLargas*5080235; return quilates;}
+    public double toneladasLargas_miligramos(double toneladasLargas){double miligramos=toneladasLargas*1016046909; return miligramos;}
+    public double toneladasLargas_centigramos(double toneladasLargas){double centigramos=toneladasLargas*101604691; return centigramos;}
+    public double toneladasLargas_decigramos(double toneladasLargas){double decigramos=toneladasLargas*10160469; return decigramos;}
+    public double toneladasLargas_gramos(double toneladasLargas){double gramos=toneladasLargas*1016047; return gramos;}
+    public double toneladasLargas_decagramos(double toneladasLargas){double decagramos=toneladasLargas*101604.7; return decagramos;}
+    public double toneladasLargas_hectogramos(double toneladasLargas){double hectogramos=toneladasLargas*10160.47; return hectogramos;}
+    public double toneladasLargas_kilogramos(double toneladasLargas){double kilogramos=toneladasLargas*1016.047; return kilogramos;}
+    public double toneladasLargas_toneladasMetricas(double toneladasLargas){double toneladasMetricas=toneladasLargas*1.016047; return toneladasMetricas;}
+    public double toneladasLargas_onzas(double toneladasLargas){double onzas=toneladasLargas*35840; return onzas;}
+    public double toneladasLargas_libras(double toneladasLargas){double libras=toneladasLargas*2240; return libras;}
+    public double toneladasLargas_piedra(double toneladasLargas){double piedra=toneladasLargas*160; return piedra;}
+    public double toneladasLargas_toneladasCortas(double toneladasLargas){double toneladasCortas=toneladasLargas*112; return toneladasCortas;}
+}

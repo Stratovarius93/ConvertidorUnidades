@@ -1,0 +1,223 @@
+<resources>
+    <string name="app_name">Convertidor de Unidades</string>
+    <string name="action_settings">Acerca de la aplicación</string>
+    <string name="seleccione_magnitud">Magnitud</string>
+    <string name="unidad">Unidad de medida</string>
+    <string name="unidad_a_convertir">Unidad a convertir</string>
+    <string name="de">De </string>
+    <string name="a">A </string>
+    <string name="respuesta">Respuesta </string>
+    <string name="es">es</string>
+
+    <!--Soporte email-->
+    <string name="my_text">Soporte</string>
+    <string name="asunto">Soporte aplicación Conversor de Unidades</string>
+    <string name="enviar">Enviar correo electrónico</string>
+    <string name="error">No hay ningún cliente de correo instalado</string>
+
+    <string name="informacion">
+        Aristos Studios \n
+        Desarrollado por: Juan Carlos Catagña Tipantuña,Cofundador de Aristos Studios .INC\n
+        Esta aplicación está basada en la recopilación de varios tipos y unidades de medida hallados
+        de aplicaciones digitales de páginas WEB y sistemas operativos como Linux y Microsoft Windows.\n
+        Quito-Ecuador
+    </string>
+
+    <string-array name="magnitudes">
+        <item>Volumen</item>
+        <item>Longitud</item>
+        <item>Peso y masa</item>
+        <item>Temperatura</item>
+        <item>Energía</item>
+        <item>Área</item>
+        <item>Velocidad</item>
+        <item>Tiempo</item>
+        <item>Potencia</item>
+        <item>Datos</item>
+        <item>Presión</item>
+        <item>Ángulo</item>
+    </string-array>
+
+    <string-array name="unidades_volumen">
+        <item>Mililitros</item>
+        <item>Centímetros cúbicos</item>
+        <item>Litros</item>
+        <item>Metros cúbicos</item>
+        <item>Pulgadas cúbicas</item>
+        <item>Pies cúbicos</item>
+        <item>Yardas cúbicas</item>
+    </string-array>
+
+    <string-array name="unidades_longitud">
+        <item>Nanómetros</item>
+        <item>Micrometros</item>
+        <item>Milímetros</item>
+        <item>Centímetros</item>
+        <item>Metros</item>
+        <item>Decímetros</item>
+        <item>Decámetros</item>
+        <item>Kilómetros</item>
+        <item>Pulgadas</item>
+        <item>Pies</item>
+        <item>Yardas</item>
+        <item>Millas</item>
+        <item>Millas náuticas</item>
+        <item>Años luz</item>
+    </string-array>
+
+    <string-array name="unidades_peso">
+        <item>Quilates</item>
+        <item>Miligramos</item>
+        <item>Centigramos</item>
+        <item>Decigramos</item>
+        <item>Gramos</item>
+        <item>Decagramos</item>
+        <item>Hectogramos</item>
+        <item>Kilogramos</item>
+        <item>Toneladas métricas</item>
+        <item>Onzas</item>
+        <item>Libras</item>
+        <item>Piedra</item>
+        <item>Toneladas cortas(EE.UU.)</item>
+        <item>Toneladas largas(Reino Unido)</item>
+    </string-array>
+
+    <string-array name="unidades_temperatura">
+        <item>Celcius</item>
+        <item>Fahrenheit</item>
+        <item>Kelvin</item>
+    </string-array>
+
+    <string-array name="unidades_energia">
+        <item>Electronvoltio</item>
+        <item>Joules</item>
+        <item>Kilojulios</item>
+        <item>Calorías termales</item>
+        <item>Calorías de alimentos</item>
+        <item>Pie-libras</item>
+        <item>Unidades térmicas británicas</item>
+    </string-array>
+
+    <string-array name="unidades_area">
+        <item>Milímetros cuadrados</item>
+        <item>Centímetros cuadrados</item>
+        <item>Metros cuadrados</item>
+        <item>Hectáreas</item>
+        <item>Kilómetros cuadrados</item>
+        <item>Pulgaddas cuadradas</item>
+        <item>Pies cuadrados</item>
+        <item>Yardas cuadradas</item>
+        <item>Acres</item>
+        <item>Millas cuadradas</item>
+    </string-array>
+
+    <string-array name="unidades_velocidad">
+        <item>Centímetros por segundo</item>
+        <item>Metros por segundo</item>
+        <item>Kilómetros por hora</item>
+        <item>Pies por segundo</item>
+        <item>Millas por hora</item>
+        <item>Nudos</item>
+        <item>Mach</item>
+    </string-array>
+
+    <string-array name="unidades_tiempo">
+        <item>Microsegundos</item>
+        <item>Milisegundos</item>
+        <item>Segundos</item>
+        <item>Minutos</item>
+        <item>Horas</item>
+        <item>Días</item>
+        <item>Semanas</item>
+        <item>Años</item>
+    </string-array>
+
+    <string-array name="unidades_potencia">
+        <item>Vatios</item>
+        <item>Kilovatios</item>
+        <item>Caballos de fuerza (EE.UU.)</item>
+        <item>Pie-libras/minuto</item>
+        <item>Unidades térmicas británicas/minuto</item>
+    </string-array>
+
+    <string-array name="unidades_datos">
+        <item>Bits</item>
+        <item>Bytes</item>
+        <item>Kilobits</item>
+        <item>Kibibits</item>
+        <item>Kilobytes</item>
+        <item>Kibibytes</item>
+        <item>Megabits</item>
+        <item>Mebibits</item>
+        <item>Megabytes</item>
+        <item>Mebibytes</item>
+        <item>Gigabits</item>
+        <item>Gibibits</item>
+        <item>Gigabytes</item>
+        <item>Gibibytes</item>
+        <item>Terabits</item>
+        <item>Tebibits</item>
+        <item>Terabytes</item>
+        <item>Tebibytes</item>
+        <item>Petabits</item>
+        <item>Pebibits</item>
+        <item>Petabytes</item>
+        <item>Pebibytes</item>
+        <item>Hexabits</item>
+        <item>Exbibits</item>
+        <item>Hexabytes</item>
+        <item>Hexbibytes</item>
+        <item>Zetabits</item>
+        <item>Zebibits</item>
+        <item>Zetabytes</item>
+        <item>Zebibytes</item>
+        <item>Yottabit</item>
+        <item>Yobibits</item>
+        <item>Yottabyte</item>
+        <item>Yobibytes</item>
+    </string-array>
+
+    <string-array name="unidades_presion">
+        <item>Atmósferas</item>
+        <item>Bares</item>
+        <item>Kilopascales</item>
+        <item>Milímetros de mercurio</item>
+        <item>Pascales</item>
+        <item>Libras por pulgada cuadrada(PSI)</item>
+    </string-array>
+
+    <string-array name="unidades_angulo">
+        <item>Grados</item>
+        <item>Radianes</item>
+        <item>Grados centesimales</item>
+    </string-array>
+    <string name="title_activity_activity_more">ActivityMore</string>
+    <string name="title_activity_keyboard">Convertidor de unidades</string>
+    <string name="title_activity_settings">Preferencias</string>
+
+    <string name="texto_copiado">Copiado al portapapeles</string>
+    <string name="seleccione_una_opcion">Seleccione una opción a copiar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="opcion_pegar">Seleccione una opción</string>
+    <string name="Tipo_De_Dato_No_valido">Tipo de dato no válido</string>
+
+    <string-array name="lista_pegar">
+        <item>Pegar</item>
+        <item>Copiar</item>
+    </string-array>
+
+    <string name="tema">Color</string>
+
+    <string-array name="temas_color">
+        <item>Azul</item>
+        <item>Violeta</item>
+        <item>Rojo</item>
+        <item>Verde</item>
+        <item>Rosa</item>
+        <item>Naranja</item>
+        <item>Material Dark</item>
+        <item>Material Licht</item>
+    </string-array>
+    <string name="seleccione_tema">Seleccione un color de tema</string>
+    <string name="title_activity_about">Acerca de la aplicación</string>
+</resources>

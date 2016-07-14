@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:autofit="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="com.astudios.aristosstudios.convertidorunidades.proceso">
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:src="@mipmap/ic_content_copy_white_36dp"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        android:layout_marginTop="215dp"
+
+        android:onClick="ocultarOpcioes"
+        android:visibility="invisible" />
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/AppBar"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/colorPrimary"
+
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light" >
+        </android.support.v7.widget.Toolbar>
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="190dp"
+            android:elevation="8dp"
+            android:id="@+id/cardview">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorPrimary"
+                android:paddingBottom="@dimen/activity_vertical_margin"
+                android:paddingLeft="@dimen/activity_horizontal_margin"
+                android:paddingRight="@dimen/activity_horizontal_margin"
+                >
+
+                <me.grantland.widget.AutofitTextView
+                    android:background="?android:attr/selectableItemBackground"
+                    android:id="@+id/texto_ingreso"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/colorTextLight"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    autofit:minTextSize="8sp"
+                    android:layout_alignParentEnd="true" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Unidad 1"
+                    android:textColor="@color/colorTextLight"
+                    android:id="@+id/unidadEntrada"
+                    android:layout_below="@+id/texto_ingreso"
+                    android:layout_centerHorizontal="true" />
+                <me.grantland.widget.AutofitTextView
+                    android:background="?android:attr/selectableItemBackground"
+                    android:id="@+id/texto_salida"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textColor="@color/colorTextLight"
+                    android:textSize="50sp"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    autofit:minTextSize="8sp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_below="@+id/unidadEntrada"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceSmall"
+                    android:text="Unidad 2"
+                    android:textColor="@color/colorTextLight"
+                    android:id="@+id/unidadSalida"
+                    android:layout_below="@+id/texto_salida"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </android.support.design.widget.AppBarLayout>
+    <include layout="@layout/content_proceso" />
+
+</android.support.design.widget.CoordinatorLayout>
